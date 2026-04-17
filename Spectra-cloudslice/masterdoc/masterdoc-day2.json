@@ -1,0 +1,24 @@
+[
+    {
+        "Name": "Azure-AI-Agents",
+        "Language": "English",
+        "Files": [
+          {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Accelerate-Agentic-AI-for-Frontier/refs/heads/main/Spectra-cloudslice/Labguides/gettingstartedpage/gettingstarted02.md",
+            "Order": 1
+          },
+          {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Accelerate-Agentic-AI-for-Frontier/refs/heads/main/Spectra-cloudslice/Labguides/Usecase%2004/Usecase04.md",
+            "Order": 2
+          },
+          {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Accelerate-Agentic-AI-for-Frontier/refs/heads/main/Spectra-cloudslice/Labguides/Usecase%2005/Usecase05.md",
+            "Order": 3
+          },
+          {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Accelerate-Agentic-AI-for-Frontier/refs/heads/main/Spectra-cloudslice/Labguides/Usecase%2006/Usecase06.md",
+            "Order": 4
+          }
+        ]
+    }
+]
