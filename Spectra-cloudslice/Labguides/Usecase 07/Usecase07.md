@@ -252,9 +252,11 @@ while adhering to its intended role
       ```
        - I want to plan a multi-day travel itinerary
       ```
+     
       ```
        - I want to rent a car at my travel destination
       ```
+   
      ```
       - I want to book a flight and hotel for my travels
     ```
@@ -266,7 +268,7 @@ while adhering to its intended role
 12. In the Test pane, enter the below and click **Send.**
 
        ```
-           I want to plan a multi-day travel itinerary
+       I want to plan a multi-day travel itinerary
         ```
 
    ![](./media/us30.png)
@@ -277,10 +279,10 @@ while adhering to its intended role
 
 14. Enter the following text and click on the **Submit icon** as shown in the below image.
 
-        ```
-           Hi! I'm thinking about planning a trip to Paris from Jul 1–4 with my
-          family (3 people total). We are vegetarian. We love sports, historic
-          homes, art and food tours
+      ```
+       Hi! I'm thinking about planning a trip to Paris from Jul 1–4 with my
+       family (3 people total). We are vegetarian. We love sports, historic
+       homes, art and food tours
         ```
 
        ![](./media/us32.png)
@@ -405,7 +407,7 @@ behaves responsibly under different conditions.
 
 3.  Click on Next
 
-   ![](./media/image54.png)
+   ![](./media/us55.png)
 
 4.  Submit the scan. This takes a while to complete - we will revisit it
     later.
