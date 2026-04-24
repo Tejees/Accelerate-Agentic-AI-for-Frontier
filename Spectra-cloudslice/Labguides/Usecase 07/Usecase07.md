@@ -814,130 +814,107 @@ structured evaluation techniques. You will assess the agent’s responses
 for quality, safety, and relevance, and interpret the results to
 identify areas for improvement.
 
-1.  Navigate to the **labs/notebooks/1-prompt-agents/lab** folder and
-    open the **lab-05-evaluation.ipynb** notebook to begin the
+1. Navigate to the **labs/notebooks/1-prompt-agents/lab** folder and  open the **lab-05-evaluation.ipynb** notebook to begin the
     environment setup lab.
 
-> ![](./media/image159.png)
+    ![](./media/usx95.png)
 
-2.  Click **Select Kernel**, then choose the **Python 3.12.13**
-    environment to run the Lab 02 notebook.
+1. Click **Select Kernel**, then choose the **Python 3.12.13** environment to run the Lab 02 notebook.
 
-> ![](./media/image160.png)
+    ![](./media/usx96.png)
 
-3.  Run the cell under **Setup** to connect to Microsoft Foundry and
-    initialize the evaluation client.
+1. Run the cell under **Setup** to connect to Microsoft Foundry and initialize the evaluation client.
 
-> ![](./media/image161.png)
+    ![](./media/usx97.png)
 
-![](./media/image162.png)
+    ![](./media/usx98.png)
 
-4.  Run the cell under **Create the Travel Agent for Evaluation** to
-    create a versioned agent that will be used for evaluation.
+1.  Run the cell under **Create the Travel Agent for Evaluation** to create a versioned agent that will be used for evaluation.
 
-![](./media/image163.png)
+    ![](./media/usx99.png)
 
-5.  Run the cell under **Prepare Evaluation Data** to load and review
-    the sample evaluation queries from the dataset.
+1.  Run the cell under **Prepare Evaluation Data** to load and review the sample evaluation queries from the dataset.
 
-![](./media/image164.png)
+    ![](./media/usx100.png)
 
-6.  Run the cell under **Define Quality Evaluators** to configure
-    evaluation criteria such as fluency, coherence, and task adherence.
+1.  Run the cell under **Define Quality Evaluators** to configure evaluation criteria such as fluency, coherence, and task adherence.
 
-![](./media/image165.png)
+    ![](./media/usx101.png)
 
-![](./media/image166.png)
+    ![](./media/usx102.png)
 
-7.  Run the cell under **Run the Quality Evaluation** to submit queries
-    to the agent and evaluate the responses against the defined
-    criteria.
+1.  Run the cell under **Run the Quality Evaluation** to submit queries  to the agent and evaluate the responses against the defined criteria.
 
-> ![](./media/image167.png)
->
-> ![](./media/image168.png)
+    ![](./media/usx103.png)
 
-8.  Run the cell under **Interpret Quality Results** to review
-    evaluation scores and analyze how the agent performed across
-    different criteria.
+    ![](./media/usx104.png)
 
-> ![](./media/image169.png)
+1.  Run the cell under **Interpret Quality Results** to review evaluation scores and analyze how the agent performed across different criteria.
 
-![](./media/image170.png)
+    ![](./media/usx105.png)
 
-9.  Run the cell under **Define Safety Evaluators** to configure safety
-    checks such as violence, hate, and self-harm detection for agent
+    ![](./media/usx106png)
+
+1.  Run the cell under **Define Safety Evaluators** to configure safety checks such as violence, hate, and self-harm detection for agent
     responses.
 
-![](./media/image171.png)
+    ![](./media/usx107.png)
 
-![](./media/image172.png)
+    ![](./media/usx108.png)
 
-10. Run the cell under **Run the Safety Evaluation** to test the agent
-    against sensitive scenarios and evaluate its safety handling.
+1. Run the cell under **Run the Safety Evaluation** to test the agent against sensitive scenarios and evaluate its safety handling.
 
-![](./media/image173.png)
+   ![](./media/usx109.png)
 
-![](./media/image174.png)
+   ![](./media/usx110.png)
 
-11. Run the cell under **Interpret Safety Results** to review safety
-    evaluation scores and analyze how the agent handled sensitive
-    scenarios.
+1. Run the cell under **Interpret Safety Results** to review safety evaluation scores and analyze how the agent handled sensitive scenarios.
 
-![](./media/image175.png)
+   ![](./media/usx111.png)
 
-![](./media/image176.png)
+   ![](./media/usx112.png)
 
-12. Run the cell to define the **Agentic Evaluation schema and
-    criteria**, including context and ground truth for advanced
-    evaluation.
+1. Run the cell to define the **Agentic Evaluation schema and criteria**, including context and ground truth for advanced evaluation.
 
-![](./media/image177.png)
+   ![](./media/usx113.png)
 
-![](./media/image178.png)
+   ![](./media/usx114.png)
 
-13. Run the cell under **Run the Agentic Evaluation** to evaluate the
-    agent using context and ground truth for more advanced assessment.
+1. Run the cell under **Run the Agentic Evaluation** to evaluate the agent using context and ground truth for more advanced assessment.
 
-![](./media/image178.png)
+   ![](./media/usx115.png)
 
-![](./media/image179.png)
+   ![](./media/usx116.png)
 
-14. Run the cell under **Interpret Agentic Results** to review agentic
-    evaluation scores such as intent resolution, groundedness, and
-    relevance.
+1. Run the cell under **Interpret Agentic Results** to review agentic evaluation scores such as intent resolution, groundedness, and relevance.
 
-![](./media/image180.png)
+  ![](./media/usx117.png)
 
-![](./media/image181.png)
+  ![](./media/usx118.png)
 
-15. Go to the https://ai.azure.com/
+1. Back in the Foundry portal, select **Agents**, then click on the **contoso-travel-eval** agent to view its details and evaluation results.
 
-16. Select **Agents**, then click on the **contoso-travel-eval** agent
-    to view its details and evaluation results.
+   ![](./media/usx119.png)
 
-![](./media/image182.png)
+1. Click on the **Evaluations** tab in the left navigation
 
-17. Click on the **Evaluations** tab in the left navigation
+   ![](./media/usx120.png)
 
-![](./media/image183.png)
+1. You should see the Quality, Safety, and Agentic evaluation runs  listed
 
-18. You should see the Quality, Safety, and Agentic evaluation runs
-    listed
+    ![](./media/usx121.png)
 
-> ![](./media/image184.png)
+1. Select **Contoso Travel-Safety Evolution**
 
-19. Select **Contoso Travel-Safety Evolution**
+    ![](./media/usx122.png)
 
-![](./media/image185.png)
+    ![](./media/usx123.png)
 
-![](./media/image186.png)
+1. Return to your Codespace to continue the lab.
 
-21. Return to your Codespace to continue the lab.
+1. Run the final cell to delete the conversation and agent resources.
 
-22. Run the final cell to delete the conversation and agent resources.
-
-![](./media/image187.png)
+    ![](./media/usx124.png)
 
 ### Task 8: Red-Team Your Travel Agent
 
