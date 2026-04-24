@@ -436,65 +436,64 @@ This task involves setting up a cloud-based development environment
 using GitHub Codespaces. You will fork the provided repository, launch a
 Codespace, and prepare your workspace for development.
 
-1.  Open your browser, navigate to the address bar, type or paste the
-    following URL:
-    +++https://github.com/technofocus-pte/Foundry-Control-Plane-agent-observability+++
+1.  Open your browser, navigate to the address bar, type or paste the following URL:
 
-> ![](./media/image58.png)
+     ```
+    https://github.com/technofocus-pte/Foundry-Control-Plane-agent-observability
+               
+    ```
 
-5.  Click on **fork** to fork the repo. Give unique name to the repo and
-    click on **Create repo** button.
+     ![](./media/image58.png)
 
-> ![](./media/image59.png)
->
-> ![](./media/image60.png)
+1. Click on **fork** to fork the repo. 
 
-3.  Click on **Code -\> Codespaces -\> Create Codespace**
-    ![](./media/image61.png)
+    ![](./media/usx3.png)
 
-> ![](./media/image62.png)
->
-> ![](./media/image63.png)
->
-> ![](./media/image64.png)
+1. Give the name to the repo as **Foundry-Control-<inject key="DeploymentID" enableCopy="false"/> (1)** and click on **Create Fork (2)** .
 
-6.  Run the ./labs/notebooks/setup-env.sh script to set up the required
-    environment for the lab.
+    ![](./media/usx3.png)
 
-./labs/notebooks/setup-env.sh
+1. Click on **Code (1) -\> Codespaces (2) -\> Create Codespace (3)**
 
-![](./media/image65.png)
+    ![](./media/usx4.png)
 
-7.  It should prompt you to log into Azure as shown. Complete this step,
-    then let the script run till complete. 
+    ![](./media/usx5.png)
 
-> ![](./media/image66.png)
+    > **Note:** It can take a few minutes for the codespace to spin up completely
+   
+1.  Run the below command to run the script to set up the required  environment for the lab.
 
-8.  Default browser opens to enter the generated code to verify. Enter
-    the code and click **Next**.
+    ```
+    ./labs/notebooks/setup-env.sh
+               
+    ```
+     ![](./media/usx6.png)
 
-> ![](./media/image67.png)
+1.  It should prompt you to log into Azure as shown. Complete this step, then let the script run till complete. 
 
-9.  Sign in with your Azure credentials.
+     ![](./media/usx7.png)
 
-> ![A screenshot of a computer AI-generated content may be
-> incorrect.](./media/image68.png)
->
-> ![A screenshot of a computer error AI-generated content may be
-> incorrect.](./media/image69.png)
+1.  Default browser opens to enter the generated code to verify. Enter the code and click **Next**.
 
-10. Select your subscription from the available options.
+     ![](./media/usx8.png)
 
-> ![](./media/image70.png)
+1.  Sign in with your Azure credentials **<inject key="AzureAdUserEmail"></inject>**.
 
-11. Enter the existing resource group that you created while setting up
-    agents in Exercise 1 from the available options.
+     ![](./media/usx9.png)
 
-![](./media/image71.png)
+     ![](./media/usx10.png)
 
-12. Congratulations - your local env variables are set.
+1. To select the default subscription enter 1.
 
-![](./media/image72.png)
+     ![](./media/usx11.png)
+
+1. Enter the resource group as **AgenticAI** 
+
+     ![](./media/usx12.png)
+
+1. Congratulations - your local env variables are set.
+
+     ![](./media/usx13.png)
 
 ### Task 2: Environment Setup & Validation
 
@@ -503,64 +502,60 @@ environment. This includes selecting the appropriate Python environment,
 installing dependencies, and verifying connectivity to Azure services
 and the Foundry project.
 
-1.  Navigate to the **labs/notebooks/1-prompt-agents** folder and open
-    the **lab-01-setup.ipynb** notebook to begin the environment setup
+1.  Navigate to the **labs/notebooks/1-prompt-agents** folder and open the **lab-01-setup.ipynb** notebook to begin the environment setup
     lab.
 
-> ![](./media/image73.png)
+     ![](./media/usx14.png)
 
-2.  Click **Select Kernel** in the top-right corner of the notebook and
-    choose the appropriate Python environment to run the lab.
+2.  Click **Select Kernel** in the top-right corner of the notebook and choose the appropriate Python environment to run the lab.
 
-> ![](./media/image74.png)
+    ![](./media/usx15.png)
 
 3.  Select **Python Environments**
 
-> ![](./media/image75.png)
+    ![](./media/usx16.png)
 
-4.  If prompted to select the path, then select the **Python** version
-    i.e **3.12.13**
+4.  If prompted to select the path, then select the **Python** version  i.e **3.12.13**
 
-![](./media/image76.png)
+    ![](./media/usx17.png)
 
-5.   To install dependencies, run the first cell in the
-    notebook![](./media/image77.png)
+5.  To install dependencies, run the first cell in the notebook
 
-> ![](./media/image78.png)
+   ![](./media/usx18.png)
 
-6.  Load and validate the environment variables from the shared .env
-    file by running the second cell in the notebook.
+1. Restart the Kernel by clicking on **Restart**.In the pop-up that appears click on Restart again
+   
+   ![](./media/usx21.png)
 
-![](./media/image79.png)
+6.  Load and validate the environment variables from the shared .env  file by running the second cell in the notebook.
 
-![](./media/image80.png)
+   ![](./media/usx19.png)
 
-7.  Verify that you can connect to your Microsoft Foundry project using
-    the SDK by running the 3^(rd) cell in the notebook.
+   ![](./media/usx20.png)
 
-![](./media/image81.png)
+7.  Verify that you can connect to your Microsoft Foundry project using the SDK by running the 3^(rd) cell in the notebook.
 
-![](./media/image82.png)
+   ![](./media/usx22.png)
 
-8.  Run the cell under **Validate OpenAI Client** to verify that your
-    OpenAI client is correctly configured and responding.
+   ![](./media/usx23.png)
 
-![](./media/image83.png)
+8.  Run the cell under **Validate OpenAI Client** to verify that your OpenAI client is correctly configured and responding.
 
-![](./media/image84.png)
+   ![](./media/usx24.png)
 
-9.  Explore the Contoso Travel sample data by running the 5^(th),
-    6^(th), 7^(th) and 8^(th) cells in the notebook.
+   ![](./media/usx25.png)
 
-![](./media/image85.png)
+9.  Explore the Contoso Travel sample data by running the 5^(th), 6^(th), 7^(th) and 8^(th) cells in the notebook.
 
-![](./media/image86.png)
-
-![](./media/image87.png)
-
-![](./media/image88.png)
-
-![](./media/image89.png)
+    ![](./media/usx26.png)
+    
+    ![](./media/usx27.png)
+    
+    ![](./media/usx28.png)
+    
+    ![](./media/usx29.png)
+    
+    ![](./media/usx30.png)
 
 ### Task 3: Create Your First Prompt Agent
 
