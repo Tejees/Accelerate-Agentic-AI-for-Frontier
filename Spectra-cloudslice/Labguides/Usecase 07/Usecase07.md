@@ -204,11 +204,11 @@ while adhering to its intended role
 
 4.  Enter the below in the chat panel and select **Send**
    
-   ```
+    ```
     Hi. I'm thinking about planning a trip to Paris. What should I know? 
-   ```
+    ```
  
-   ![](./media/us23.1.png)
+    ![](./media/us23.1.png)
 
 5.  Observe the response.
 
@@ -221,7 +221,7 @@ while adhering to its intended role
 7.  Customize the list to reflect evaluation criteria you want to use and try a new request.
 
      ```
-        Hi. I'm thinking about planning a trip to Paris. What should I know? 
+     Hi. I'm thinking about planning a trip to Paris. What should I know? 
      ```    
 
      ![](./media/us26.1.png)
@@ -238,28 +238,28 @@ while adhering to its intended role
 
 11. Enter the details
 
-- **Display name (1)**: Contoso Travel Assistant
-- **Description (2)**
+    - **Display name (1)**: Contoso Travel Assistant
+    - **Description (2)**
 
-   ```
-        Welcome to Contoso Travel. We can help you plan your next itinerary
-        with flight bookings, car rentals and hotel reservations. Just tell us
+       ```
+       Welcome to Contoso Travel. We can help you plan your next itinerary
+       with flight bookings, car rentals and hotel reservations. Just tell us
        your destination and the number of travellers in your group - and we'll
        do the rest. 
-     ```  
+       ```  
 -**Starter prompts (3)**
 
-     ```
-        I want to plan a multi-day travel itinerary 
-     ```  
+    ```
+    I want to plan a multi-day travel itinerary 
+    ```  
      
-     ```
-       I want to rent a car at my travel destination
-     ```  
+    ```
+    I want to rent a car at my travel destination
+    ```  
      
-     ```
-       I want to book a flight and hotel for my travels
-     ``` 
+    ```
+    I want to book a flight and hotel for my travels
+    ``` 
 
 - Click on **Reset (4)**
 
@@ -268,7 +268,7 @@ while adhering to its intended role
 12. In the Test pane, enter the below and click **Send.**
 
      ```
-        I want to plan a multi-day travel itinerary 
+     I want to plan a multi-day travel itinerary 
      ```  
 
      ![](./media/us30.png)
@@ -283,7 +283,6 @@ while adhering to its intended role
        Hi! I'm thinking about planning a trip to Paris from Jul 1–4 with my
        family (3 people total). We are vegetarian. We love sports, historic
        homes, art and food tours
-
       ```
 
        ![](./media/us32.png)
@@ -298,16 +297,15 @@ while adhering to its intended role
 
 17. Want to understand what the Trace ID is showing - try **Ask AI** and enter the below prompt and click on **Send**
 
-   ```
-     Explain what the trace ID is showing
-           
-   ```
+    ```
+    Explain what the trace ID is showing     
+    ```
  
-   ![](./media/us35.png)
+     ![](./media/us35.png)
 
-   ![](./media/us36.png)
+     ![](./media/us36.png)
 
-   ![](./media/us37.png)
+     ![](./media/us37.png)
 
 18. Click on the Trace ID - you should see something like this:
 
@@ -323,16 +321,15 @@ while adhering to its intended role
 
 20. Enter the following text and click on the **Submit icon** as shown in the below image.
 
-   ```
-   I want to plan a multi-day travel itinerary leaving JFK on Jul 1 for
-   Paris and returning Jul 5. I am traveling with my family (3 people
-   total). We are vegetarians. We love sports, historic homes and art and
-   food tours. Plan my itinerary and show me hotels and flights for my
-   stay
-           
-   ```
+    ```
+    I want to plan a multi-day travel itinerary leaving JFK on Jul 1 for
+    Paris and returning Jul 5. I am traveling with my family (3 people
+    total). We are vegetarians. We love sports, historic homes and art and
+    food tours. Plan my itinerary and show me hotels and flights for my
+    stay           
+    ```
 
-   ![](./media/us42.png)
+     ![](./media/us42.png)
 
 21. You can review the agent response in the preview tab itself
 
@@ -372,10 +369,9 @@ also invoke *code-first*.
 4.  Use "Ask AI" to get explanations for any of them - e.g., ask:
 
     ```
-    Tell me more about the Protected-Material evaluator
-               
+    Tell me more about the Protected-Material evaluator        
     ```
-   ![](./media/us49.png)
+    ![](./media/us49.png)
 
 5.  Click the **Create** button.
 
@@ -438,9 +434,8 @@ Codespace, and prepare your workspace for development.
 
 1.  Open your browser, navigate to the address bar, type or paste the following URL:
 
-     ```
-    https://github.com/technofocus-pte/Foundry-Control-Plane-agent-observability
-               
+    ```
+    https://github.com/technofocus-pte/Foundry-Control-Plane-agent-observability          
     ```
 
      ![](./media/usx1.png)
@@ -464,8 +459,7 @@ Codespace, and prepare your workspace for development.
 1.  Run the below command to run the script to set up the required  environment for the lab.
 
     ```
-    ./labs/notebooks/setup-env.sh
-               
+    ./labs/notebooks/setup-env.sh         
     ```
      ![](./media/usx6.png)
 
@@ -529,21 +523,21 @@ and the Foundry project.
 
 1.  Load and validate the environment variables from the shared .env  file by running the second cell in the notebook.
 
-   ![](./media/usx19.png)
+    ![](./media/usx19.png)
 
-   ![](./media/usx20.png)
+    ![](./media/usx20.png)
 
 1.  Verify that you can connect to your Microsoft Foundry project using the SDK by running the 3^(rd) cell in the notebook.
 
-   ![](./media/usx22.png)
+    ![](./media/usx22.png)
 
-   ![](./media/usx23.png)
+    ![](./media/usx23.png)
 
 1.  Run the cell under **Validate OpenAI Client** to verify that your OpenAI client is correctly configured and responding.
 
-   ![](./media/usx24.png)
+    ![](./media/usx24.png)
 
-   ![](./media/usx25.png)
+    ![](./media/usx25.png)
 
 1.  Explore the Contoso Travel sample data by running the 5^(th), 6^(th), 7^(th) and 8^(th) cells in the notebook.
 
