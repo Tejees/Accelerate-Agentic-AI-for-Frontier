@@ -337,7 +337,7 @@ actions.
 
     ![](./media/image71.png)
 
-    **Observe***: It goes into "Thinking Process", "Processing your plan"
+    **Observe**: *It goes into "Thinking Process", "Processing your plan"
     and "coordinating with AI Agents".* *Review the output.*
 
     ![](./media/image72.png)
@@ -364,25 +364,26 @@ creation while ensuring alignment with product details and brand voice.
 
     ![](./media/image74.png)
 
-    - Task: From the Quick Tasks, select **"Draft a press release"** and
-    submit it.
+1. Task: From the Quick Tasks, select **"Draft a press release"** and submit it.
 
-      ![](./media/image75.png)
+    ![](./media/image75.png)
 
 1. Click the **Submit** icon as shown in the image.
 
     ![](./media/image76.png)
 
-    *Note: Average response time is 15–20 seconds.*  
-    *Observe: It will trigger the "Generating Plan Action" and give the
-    Proposed Plan with 4 or more Steps*
+    >**Note:** Average response time is 15-20 seconds. 
 
-    - Task: Click on **"Approve Task Plan"** Button
+    **Observe:** It will trigger the "Generating Plan Action" and give the
+    Proposed Plan with 4 or more Steps.
 
-      ![](./media/image77.png)
+1. Task: Click on **"Approve Task Plan"** Button.
 
-    *Note: Average response time is around 01 minute.*  
-    **Observe***:* It goes into "Thinking Process" and observe a spinner
+    ![](./media/image77.png)
+
+    >**Note:** Average response time is around 01 minute.
+
+    **Observe:** It goes into "Thinking Process" and observe a spinner
     "Processing your plan and coordinating with AI Agents". 
     Review the output.
 
@@ -413,7 +414,7 @@ onboarding activities efficiently and accurately
 
 **Sample operation:**
 
-1. Task: Switch to the **"Human Resources Team"** from the top left section and click **"Continue"**
+1. Task: Switch to the **"Human Resources Team"** from the top left section and click **"Continue".**
 
 1. Task: From the Quick Tasks, select **"Onboard New Employee"** and submit it.
 
@@ -423,23 +424,23 @@ onboarding activities efficiently and accurately
 
     ![](./media/image82.png)
 
-    >**Note**: Average response time is 15–20 seconds.
+    >**Note**: Average response time is 15-20 seconds.
 
      **Observe:** If it asks for additional clarification (Human in the loop) Please provide this information irrespective of what specific information is asked. This will prevent agent for asking for multiple clarifications
 
      **department**: hr, role: manager, start date: 11/23/2025, orientation date: 11/25/2025, location: onsite, email: js@contoso.com, mentor: Jim Shorts, benefits package: standard, ID Card: yes, salary: 70000, Laptop : Dell 14 Plus
 
-     *Observe: It will trigger "Generating Plan Action" and "Proposed Plan" with 4 or more Steps*
+     **Observe:** It will trigger "Generating Plan Action" and "Proposed Plan" with 4 or more Steps.
 
      **Task**: Click on **"Approve Task Plan"** Button.
 
-     ![](./media/image83.png)
+      ![](./media/image83.png)
 
     >**Note:** Average response time is around 01 minute 15 seconds. 
     
-     Observe: It goes into "Thinking Process", "Processing your plan" and "coordinating with AI Agents" Review the output.
+     **Observe:** It goes into "Thinking Process", "Processing your plan" and "coordinating with AI Agents" Review the output.
 
-     ![](./media/image84.png)
+      ![](./media/image84.png)
 
 ## Task 11: RFP Analysis Scenario
 
@@ -462,28 +463,28 @@ accurately
     The RFP Analysis Scenario allows users to explore and analyze Request
     for Proposal (RFP) and contract documents. Key tasks include:
 
-    *Sample operation:*
+**Sample operation:**
 
-    - **Task**: Switch to the **"RFP Team"** from the top left section and
+1. **Task**: Switch to the **"RFP Team"** from the top left section and
     click **"Continue"** button.
 
-    - **Task**: From the Quick Tasks, select **"RFP Document Summary"** and
+1. **Task**: From the Quick Tasks, select **"RFP Document Summary"** and
     submit it.
 
-      ![](./media/image87.png)
+    ![](./media/image87.png)
 
 1. Click the **Submit** icon as shown in the image.
 
     ![](./media/image88.png)
 
-    >**Note:** Average response time is 10–15 minutes.
+    >**Note:** Average response time is 10-15 minutes.
 
-    **Observe**: It will trigger the "Generating Plan Action" and give the
+     **Observe**: It will trigger the "Generating Plan Action" and give the
     Proposed Plan with 5 or more Steps.
 
-    ![](./media/image89.png)
+     ![](./media/image89.png)
 
-    ![](./media/image90.png)
+     ![](./media/image90.png)
 
 ## Task 12: Contract Compliance Review Scenario
 
@@ -508,14 +509,14 @@ contract reviews while keeping humans in control of final decisions.
 
     ![](./media/image91.png)
 
-    Sample operation:
+**Sample operation:**
 
-    - **Task**: Switch to the **"Contract Compliance Review Team"** from the
+1. **Task**: Switch to the **"Contract Compliance Review Team"** from the
     top left section and click **"Continue"** button.
 
-      ![](./media/image92.png)
+     ![](./media/image92.png)
 
-    - **Task**: From the Quick Tasks, select **"NDA Contract Review"** and
+1. **Task**: From the Quick Tasks, select **"NDA Contract Review"** and
     submit it.
 
      ![](./media/image93.png)
@@ -524,24 +525,24 @@ contract reviews while keeping humans in control of final decisions.
 
     ![](./media/image94.png)
 
-    *Note: Average response time is 10–15 minutes.*  
-    **Observe***:* It will trigger the "Generating Plan Action" and give the
+    >**Note:** Average response time is 10-15 minutes.
+
+     **Observe**: It will trigger the "Generating Plan Action" and give the
     Proposed Plan with 4 or more Steps
 
-    - Task: Click on **"Approve Task Plan"** Button.
+1. **Task:** Click on **"Approve Task Plan"** Button.
 
-      ![](./media/image95.png)
+    ![](./media/image95.png)
 
-    Note: Average response time is around 01 minute. 
-    **Observe**: It goes into "Thinking Process", "Processing your plan" and
-    "coordinating with AI Agents". 
-    **Review the output.**
+     >**Note:** Average response time is around 01 minute. 
 
-    This structured approach ensures that users receive automated,
-    AI-coordinated task execution and intelligent responses from specialized
-    agents.
+      **Observe** : It goes into "Thinking Process", "Processing your plan" and"coordinating with AI Agents". 
 
-    ![](./media/image96.png)
+      **Review the output.**
+
+      This structured approach ensures that users receive automated AI-coordinated task execution and intelligent responses from specialized agents.
+
+      ![](./media/image96.png)    
 
 ## Summary
 
