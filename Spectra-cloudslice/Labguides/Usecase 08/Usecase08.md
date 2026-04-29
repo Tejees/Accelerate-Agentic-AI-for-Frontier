@@ -70,11 +70,17 @@ monitoring to ensure safety, accuracy, and compliance.
 
 1. In the Azure portal search bar, type **Subscriptions** (1), then select **Subscriptions** from the **Services** list (2) to open it.
 
+    ![](../Usecase%2001/media/uc2-0.png)
+
 1. On the **Subscriptions** page, select the required subscription (e.g., **Sandbox AI DS**) from the list to open its details.
 
-1. In the selected subscription, navigate to **Settings** (1), select **Resource providers** (2), search for **Microsoft.CognitiveServices** (3), and select it from the list (4) and verify that the status is registered.
+    ![](../Usecase%2001/media/uc2-21.png)
 
-1. Similarly, search for **Microsoft.AlertsManagement** and verify that the status is registered.
+1. In the selected subscription, navigate to **Settings** (1), select **Resource providers** (2), search for **Microsoft.CognitiveServices** (3), and select it from the list (4) and verify that the status is registered with a green tick.
+
+    ![](../Usecase%2001/media/rp0.png)
+
+1. Similarly, search for **Microsoft.AlertsManagement** and verify that the status is registered with a green tick.
 
 ## Task 2: Open Github Codespaces environment
 
@@ -84,26 +90,21 @@ monitoring to ensure safety, accuracy, and compliance.
    https://github.com/signup?user_email=&source=form-home-signup
    ```
 
-1. In a new tab, enter the following URL to open the GitHub repository:
+1. In a new tab, enter the following URL to open the GitHub repository, then click on **fork** to fork the repo.
 
    ```
    https://github.com/technofocus-pte/ai-agent.git
    ```
 
-    ![](./media/image14.png)
+    ![](./media/uc8-20.png)
 
-1. Click on **fork** to fork the repo. Give unique name to the repo and click on **Create repo** button.
+1. On Create a new fork page, keep everything as default and click on **Create fork** button.
 
-    ![](./media/image15.png)
+    ![](./media/uc8-21.png)
 
-1. Click on **Create fork**
+1. Click **Code (1)**, go to the **Codespaces (2)** tab, and select **Create codespace on main (3)** to launch the environment.
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image16.png)
-
-1. Click on **Code -\ Codespaces -\ Codespaces+**
-
-    ![](./media/image17.png)
+    ![](./media/uc8-22.png)
 
 1. Wait for the Codespaces environment to setup .It takes few minutes to setup completely.
 

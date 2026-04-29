@@ -82,11 +82,17 @@ To overcome these challenges, Contoso implements a **multi-agent AI system** whe
 
 1. In the Azure portal search bar, type **Subscriptions** (1), then select **Subscriptions** from the **Services** list (2) to open it.
 
+    ![](../Usecase%2001/media/uc2-0.png)
+
 1. On the **Subscriptions** page, select the required subscription (e.g., **Sandbox AI DS**) from the list to open its details.
 
-1. In the selected subscription, navigate to **Settings** (1), select **Resource providers** (2), search for **Microsoft.CognitiveServices** (3), and select it from the list (4).
+    ![](../Usecase%2001/media/uc2-21.png)
 
-1. Repeat the step 3 to register the following Resource provider.
+1. In the selected subscription, navigate to **Settings** (1), select **Resource providers** (2), search for **Microsoft.CognitiveServices** (3), and select it from the list (4) and verify that the status is registered with a green tick.
+
+    ![](../Usecase%2001/media/rp0.png)
+
+1. Similarly, search for the following resource providers and verify that the status is registered with a green tick.
 
     - **Microsoft.AlertsManagement**
 
@@ -110,6 +116,12 @@ To overcome these challenges, Contoso implements a **multi-agent AI system** whe
 
 ## Task 3: Open Github Codespaces environment
 
+> **Note:** You are expected to have your own GitHub login credentials. If you do not have an account, please create one by visiting below shared URL: 
+   
+   ```
+   https://github.com/signup?user_email=&source=form-home-signup
+   ```
+   
 1. Open your browser, navigate to the address bar, type or paste the following URL: 
 
     ```

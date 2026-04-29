@@ -402,6 +402,12 @@ This task involves setting up a cloud-based development environment
 using GitHub Codespaces. You will fork the provided repository, launch a
 Codespace, and prepare your workspace for development.
 
+> **Note:** You are expected to have your own GitHub login credentials. If you do not have an account, please create one by visiting below shared URL: 
+   
+   ```
+   https://github.com/signup?user_email=&source=form-home-signup
+   ```
+   
 1.  Open your browser, navigate to the address bar, type or paste the following URL:
 
     ```

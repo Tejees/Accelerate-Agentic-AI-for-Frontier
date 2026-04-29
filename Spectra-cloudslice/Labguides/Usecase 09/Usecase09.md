@@ -64,31 +64,73 @@ By completing this lab, you will be able to:
 
 ## Task 1: Open Github Codespaces environment
 
-1. Open your browser, navigate to the address bar, type or paste the following URL: 
+> **Note:** You are expected to have your own GitHub login credentials. If you do not have an account, please create one by visiting below shared URL: 
+   
+   ```
+   https://github.com/signup?user_email=&source=form-home-signup
+   ```
+
+1. In a new tab, enter the following URL to open the GitHub repository:
 
     ```
     https://github.com/technofocus-pte observeManageScale-agentic-ai-appsFoundry/tree/feb-2026-refresh
     ```
 
-1. Click on **fork** to fork the repo. Give unique name to the repo and click on **Create repo** button.
+1. Click on **fork** to fork the repo. 
 
     ![](./media/image11.png)
 
-1. Click on **Create fork**
+1. On Create a new fork page, uncheck **Copy the main branch only (1)**, then click **Create fork (2)** to create your repository copy.
 
-1. Click on **Code -\ Codespaces -\ Codespaces+**
+    ![](./media/uc9-2.png)
 
-    ![](./media/image12.png)
+1. Click on the **branch dropdown (main) (1)** and select the **feb-2026-refresh (2)** branch.
+
+    ![](./media/uc9-3.png)
+
+1. Click **Code**, go to the **Codespaces** tab, and select **Create codespace on feb-2026-refresh** to launch the environment.
+
+    ![](./media/uc9-4.png)
+
+1. Wait for the Codespace to finish building.
 
     ![](./media/image13.png)
 
     ![](./media/image14.png)
 
-    ![](./media/image15.png)
-
 ## Task 2: Provision Services and deploy application to Azure
 
-1. Run the following command on the Terminal. It generates the code to copy. Copy the code and press Enter.
+1. In the LabVM search bar, type **Docker (1)** and select **Docker Desktop (2)** from the results to open the application.
+
+    ![](../Usecase%2008/media/uc9-14.png)
+
+    > **Note:** Before moving on to the next steps please make sure your Docker Desktop is up and running. It should not be in stopped state.
+
+1. Click **Accept** to agree to the Docker Subscription Service Agreement and continue.
+
+    ![](../Usecase%2008/media/uc8-23.png)
+
+1. Click **Skip** to bypass the setup questionnaire and proceed.
+
+    ![](../Usecase%2008/media/uc8-19.png)
+
+1. Click **Continue without signing in** to proceed without logging into Docker.
+
+    ![](../Usecase%2008/media/uc8-18.png)
+
+1. Select **Use recommended settings** and click **Finish** to complete the Docker Desktop setup.
+
+    ![](../Usecase%2008/media/uc8-24.png)  
+
+1. Click the **Close (X)** button to exit the Windows Subsystem for Linux (WSL) welcome screen.
+
+    ![](../Usecase%2008/media/uc8-17.png)
+
+1. Wait for Docker Desktop to finish starting the Docker Engine before proceeding.
+
+    ![](../Usecase%2008/media/uc8-16.png) 
+
+1. Navigate back to the Codespace in the in the browser, run the following command in the Terminal and press Enter.
 
     ```
     az login
@@ -96,22 +138,24 @@ By completing this lab, you will be able to:
 
     ![](./media/image16.png)
 
-1. Default browser opens to enter the generated code to verify. Enter the code and click **Next**.
+1. Enter the displayed code in the field and click **Next** to proceed with authentication.
 
     ![A screenshot of a computer error AI-generated content may be
-incorrect.](./media/image17.png)
+incorrect.](../Usecase%2008/media/image22.png)
 
-1. Sign in with your Azure credentials.
+1. Select your account ODL user account to continue signing in to Azure CLI.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image18.png)
+incorrect.](../Usecase%2008/media/image23.png)
+
+1. Click **Continue** to confirm and complete the sign-in to Microsoft Azure CLI.
 
     ![A screenshot of a computer error AI-generated content may be
-incorrect.](./media/image19.png)
+incorrect.](../Usecase%2008/media/image24.png)
 
     ![](./media/image20.png)
 
-1. Open a new VS Code Terminal. Complete these steps:
+1. Run the following command in the terminal to navigate into the scripts directory and then start the setup script.
 
     ```
     cd scripts
@@ -123,21 +167,17 @@ incorrect.](./media/image19.png)
 
 1. Then complete the interactive steps providing responses like this:
 
-    - Enter branch name: for-release-1.0.4
+    - Enter branch name: **for-release-1.0.4**
 
-    - Enter environment name: Ignite-PREL13
+    - Enter environment name: **Ignite-PREL13**
 
-    - Enter Azure region: swedencentral
+    - Enter Azure region: **swedencentral**
 
     - Enter Subscription ID: *your subscription id here*
 
     - Do you want to activate Azure AI Search? (yes/no) [no]: yes
 
-    - Use these defaults? (yes/no) [yes]: yes
-
-    - Proceed with deployment? (yes/no): yes
-
-    - Enter the **Resourcegroup**
+    - Press **Enter** for Enter existing Resource group name field.
 
       ![](./media/image22.png)
 
@@ -167,17 +207,20 @@ incorrect.](./media/image19.png)
 
     ![](./media/image30.png)
 
-1. Default browser opens to enter the generated code to verify. Enter the code and click **Next**.
-
-    ![](./media/image31.png)
-
-1. Sign in with your Azure credentials.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image18.png)
+1. Enter the displayed code in the field and click **Next** to proceed with authentication.
 
     ![A screenshot of a computer error AI-generated content may be
-incorrect.](./media/image19.png)
+incorrect.](../Usecase%2008/media/image22.png)
+
+1. Select your account ODL user account to continue signing in to Azure CLI.
+
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](../Usecase%2008/media/image23.png)
+
+1. Click **Continue** to confirm and complete the sign-in to Microsoft Azure CLI.
+
+    ![A screenshot of a computer error AI-generated content may be
+incorrect.](../Usecase%2008/media/image24.png)
 
 1. This deployment will take *12-15minutes* to provision the resources in your account and set up the solution with sample data.
 
@@ -195,11 +238,9 @@ incorrect.](./media/image19.png)
 
     ![](./media/image37.png)
 
-1. Now the deployment is complete.
-
 ## Task 3: Interact with Your AI Agent Using Predefined Questions
 
-1. After the application has been successfully deployed, you see a URL displayed in the terminal. Copy the **URL**
+1. After the application has been successfully deployed, you see a **Endpoint URL** displayed in the terminal. Copy that **URL**.
 
     ![](./media/image38.png)
 
@@ -211,7 +252,7 @@ incorrect.](./media/image19.png)
 
     ![](./media/image40.png)
 
-1. In the **agent-template-assistant** web app page, enter the following text and click on the **Submit icon** as shown in the below image.
+1. In the **agent-template-assistant** web app page, enter the following prompt and click on the **Submit icon** as shown in the below image.
 
     ```
     Can you help me choose the best tools for painting my house?
@@ -221,7 +262,7 @@ incorrect.](./media/image19.png)
 
     ![](./media/image42.png)
 
-1. In the **agent-template-assistant** web app page, enter the following text and click on the **Submit icon** as shown in the below image.
+1. In the **agent-template-assistant** web app page, enter the following prompt and click on the **Submit icon** as shown in the below image.
 
     ```
     What are the cheapest products available?
@@ -231,7 +272,7 @@ incorrect.](./media/image19.png)
 
     ![](./media/image44.png)
 
-1. In the **agent-template-assistant** web app page, enter the following text and click on the **Submit icon** as shown in the below image.
+1. In the **agent-template-assistant** web app page, enter the following prompt and click on the **Submit icon** as shown in the below image.
 
     ```
     Suggest eco-friendly paint options?
@@ -241,7 +282,7 @@ incorrect.](./media/image19.png)
 
     ![](./media/image46.png)
 
-1. In the **agent-template-assistant** web app page, enter the following text and click on the **Submit icon** as shown in the below image.
+1. In the **agent-template-assistant** web app page, enter the following prompt and click on the **Submit icon** as shown in the below image.
 
     ```
     How much does the Synthetic Brush set cost and do you have it in
@@ -260,17 +301,19 @@ incorrect.](./media/image19.png)
     az login
     ```
 
-1. Run this script from root of repo - it will create .env with values extracted by Azure CLI. By default it looks for an rg-Ignite-XXX resource group but you can override it.
+1. Run this script from root of repo - it will create .env with values extracted by Azure CLI. By default it looks for an **rg-Ignite-XXX** resource group but you can override it.
 
     ```
     ./scripts/1-update-env-selfguided.sh
     ```
 
-1. Enter the resource group
+1. Enter the resource group name starting **rg-Ignite-XXX**
 
     ![](./media/image49.png)
 
     ![](./media/image50.png)
+
+1. When prompted to **Enter agent name**, press **Enter** to use the default value (`agent-template-assistant`).
 
     ![](./media/image51.png)
 
@@ -292,6 +335,8 @@ incorrect.](./media/image19.png)
 
     ![](./media/image54.png)
 
+    > **Note:** If you get any error while runnnig 2-add-product-index.py file, from the left navigation pane open the .env file and look for the missing variable.
+
 ## Task 5: Environment Setup & Validation
 
 In this task, you will configure and validate your development
@@ -299,11 +344,11 @@ environment. This includes selecting the appropriate Python environment,
 installing dependencies, and verifying connectivity to Azure services
 and the Foundry project.
 
-1. Navigate to the **labs/setup/** folder and open the **00-validate-setup.ipynb** notebook to begin the environment setup lab.
+1. Navigate to the **labs/0-setup/** folder and open the **00-validate-setup.ipynb** notebook to begin the environment setup lab.
 
     ![](./media/image55.png)
 
-1. Click **Select Kernel** in the top-right corner of the notebook and choose the appropriate Python environment to run the lab.
+1. Click **Select Kernel** in the top-right corner of the notebook and choose the appropriate **Python Environment** to run the lab.
 
     ![](./media/image56.png)
 
@@ -335,9 +380,11 @@ and the Foundry project.
 
 **Cora** is a customer service chatbot for **Zava** - a fictitious retailer of home improvement goods for DIY enthusiasts. Zava offers a wide range of products including paint, power tools, hand tools, hardware, electrical supplies, and plumbing materials. Cora helps customers find products, check inventory, and provides personalized assistance for home improvement projects.
 
-1. Navigate to the **labs/setup/** folder and open the **11-build-cora-retail-agent.ipynb** notebook to begin the environment setup lab.
+1. Navigate to the **labs/1-agents/** folder and open the **11-build-cora-retail-agent.ipynb** notebook to begin the environment setup lab.
 
     ![](./media/image64.png)
+
+1. Click **Select Kernel** in the top-right corner of the notebook and select the appropriate **Python** version i.e **3.12.11** to run the lab.
 
 1. Click the **Run (▶)** button to execute the cell and verify that all required Python packages are installed successfully.
 
@@ -422,11 +469,11 @@ and the Foundry project.
 
 **Cora** is a customer service chatbot for **Zava** - a fictitious retailer of home improvement goods for DIY enthusiasts. As Zava retail stores grow, Cora needs to handle more complex customer needs. This notebook shows you how to evolve from a single agent to a multi-agent system, with specialized agents for inventory management and customer service. You'll learn to orchestrate multiple agents working together to provide sophisticated and role-specific assistance.
 
-1. Navigate to the **labs/agents/** folder and open the **12-agent-framework-orchestration.ipynb** notebook to begin the environment setup lab.
+1. Navigate to the **labs/1-agents/** folder and open the **12-agent-framework-orchestration.ipynb** notebook to begin the environment setup lab.
 
     ![](./media/image89.png)
 
-1. Click **Select Kernel**, then choose the **Python 3.12.11** environment to run the Lab 02 notebook
+1. Click **Select Kernel**, then choose the **Python 3.12.11** environment to run the notebook.
 
     ![](./media/image90.png)
 
@@ -482,7 +529,7 @@ and the Foundry project.
 
 **Cora** is a customer service chatbot for **Zava** - a fictitious retailer of home improvement goods for DIY enthusiasts. To ensure Cora provides accurate and helpful responses about hardware and home improvement products, you need quality test data. This notebook helps you generate synthetic query-response pairs based on your product catalog, creating a robust evaluation dataset to measure Cora's performance before deployment.
 
-1. Navigate to the **labs/models/** folder and open the **21-simulated-dataset.ipynb** notebook to begin the environment setup lab.
+1. Navigate to the **labs/2-models/** folder and open the **21-simulated-dataset.ipynb** notebook to begin the environment setup lab.
 
     ![](./media/image108.png)
 
@@ -523,7 +570,7 @@ and the Foundry project.
 
 **Cora** is a customer service chatbot for **Zava** - a fictitious retailer of home improvement goods for DIY enthusiasts. To ensure Cora provides the best customer experience, you need to select the right foundation model. With multiple Azure OpenAI models available (GPT-4o, GPT-4o-mini, GPT-4), you need to evaluate which model delivers the best balance of quality, safety, and performance for your retail use case.
 
-1. Navigate to the **labs/models/** folder and open the **22-evaluate-models.ipynb** notebook to begin the environment setup lab.
+1. Navigate to the **labs/2-models/** folder and open the **22-evaluate-models.ipynb** notebook to begin the environment setup lab.
 
     ![](./media/image123.png)
 
@@ -572,7 +619,7 @@ applications, making it a critical part of the Generative AI Ops
 content that is fabricated, irrelevant, harmful, or vulnerable to
 adversarial attacks.
 
-1. Navigate to the **labs/** **4-evaluation/** folder and open the 42-**first-evaluation-run.ipynb** notebook to begin the environment setup lab.
+1. Navigate to the **labs/** **4-evaluation/** folder and open the **41-first-evaluation-run.ipynb** notebook to begin the environment setup lab.
 
     ![](./media/image138.png)
 
